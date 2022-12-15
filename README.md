@@ -33,6 +33,7 @@ Is the variation problematic? Justify your assessment quantitatively.
 Explain your conclusions in a maximum of 1 or 2 sentences maximum.
 
 #### Result:
+
 ![Q1_NB_Class_report](https://user-images.githubusercontent.com/45035308/207872974-d3cb3904-8710-48f0-b032-80ab1eb3c618.png)
 
 
@@ -43,6 +44,9 @@ Investigate model performance with a validation curve.
 Comment briefly (1 or 2 sentences, maximum) on the results, including a comparison with the results from Question 1.
 
 #### Result:
+
+Train accuracy: 1.00
+Test accuracy: 0.84
 ![Q2_Decision_Tree_Validation_Curve](https://user-images.githubusercontent.com/45035308/207873136-0fe5c1bc-e8e6-4e70-b429-6a22ad78cc62.png)
 
 
@@ -54,6 +58,9 @@ Use a validation curve to investigate the choice of n_estimators.
 Comment briefly on the results (including comparison with results above).
 
 #### Result:
+
+Train accuracy: 1.00
+Test accuracy: 0.98
 ![Q3_Random_Forest_Classifier_Validation](https://user-images.githubusercontent.com/45035308/207873174-9babbd12-45b9-4136-a107-eb0c58e6fcd0.png)
 
 
@@ -67,6 +74,9 @@ Look at the scikit-learn
 Comment briefly on results and your choice of hyperparameters (including comparison with results above).
 
 #### Result:
+
+Train accuracy: 0.55
+Test accuracy: 0.57
 ![Q4_Ada_Boost_Classifier_Validation](https://user-images.githubusercontent.com/45035308/207873211-667af76b-85ea-472d-807a-117c94d7b766.png)
 
 
@@ -79,6 +89,9 @@ best value.
 Comment briefly on results and your choice of hyperparameters (including comparison with results above).
 
 #### Result:
+
+Train accuracy: 0.93
+Test accuracy: 0.75
 ![Q5_SVC_Classifier_Validation](https://user-images.githubusercontent.com/45035308/207873243-544ac9e0-fe27-41dd-bd2f-f92421003afd.png)
 
 
