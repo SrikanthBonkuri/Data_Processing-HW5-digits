@@ -5,6 +5,7 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import validation_curve
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 import numpy as np
 from sklearn import metrics
 
@@ -25,6 +26,11 @@ model.fit(Xtrain, ytrain)
 ymodel = model.predict(Xtest)
 print(ymodel)
 print(metrics.classification_report(ymodel, ytest))
+
+
+# Print results
+print('\nTrain accuracy: {:.2f}'.format(accuracy_score(ytrain, model.predict(Xtrain))))
+print('Test accuracy: {:.2f}\n'.format(accuracy_score(ytest, ymodel)))
 
 # Investigate performance with a validation curve
 
