@@ -14,6 +14,9 @@ digits = load_digits()
 X = digits.data
 y = digits.target
 
+print(X.shape)
+print(y.shape)
+
 # Split data for training and testing, and model y
 
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, random_state=0)
