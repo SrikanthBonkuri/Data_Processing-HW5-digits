@@ -32,11 +32,19 @@ Describe the source of variation in the "support" column.
 Is the variation problematic? Justify your assessment quantitatively.
 Explain your conclusions in a maximum of 1 or 2 sentences maximum.
 
+####Results:
+![Q1_NB_Class_report](https://user-images.githubusercontent.com/45035308/207872974-d3cb3904-8710-48f0-b032-80ab1eb3c618.png)
+
+
 ## Question 2
 
 Use a decision tree classifier with the same data.
 Investigate model performance with a validation curve.
 Comment briefly (1 or 2 sentences, maximum) on the results, including a comparison with the results from Question 1.
+
+####Results:
+![Q2_Decision_Tree_Validation_Curve](https://user-images.githubusercontent.com/45035308/207873136-0fe5c1bc-e8e6-4e70-b429-6a22ad78cc62.png)
+
 
 ## Question 3
 
@@ -44,6 +52,10 @@ In [5.08 Random Forests](https://github.com/jakevdp/PythonDataScienceHandbook/bl
 He uses `n_estimators=1000`.
 Use a validation curve to investigate the choice of n_estimators.
 Comment briefly on the results (including comparison with results above).
+
+####Results:
+![Q3_Random_Forest_Classifier_Validation](https://user-images.githubusercontent.com/45035308/207873174-9babbd12-45b9-4136-a107-eb0c58e6fcd0.png)
+
 
 ## Question 4
 
@@ -54,6 +66,10 @@ Look at the scikit-learn
 [adaboost example](https://scikit-learn.org/stable/auto_examples/ensemble/plot_adaboost_hastie_10_2.html) for ideas.
 Comment briefly on results and your choice of hyperparameters (including comparison with results above).
 
+####Results:
+![Q4_Ada_Boost_Classifier_Validation](https://user-images.githubusercontent.com/45035308/207873211-667af76b-85ea-472d-807a-117c94d7b766.png)
+
+
 ## Question 5
 
 Adapt the use of SVC in cells 18-26 of
@@ -61,3 +77,8 @@ Adapt the use of SVC in cells 18-26 of
 When selecting optimal hyperparameters, make sure that your range encompasses the
 best value.
 Comment briefly on results and your choice of hyperparameters (including comparison with results above).
+
+####Results:
+![Q5_SVC_Classifier_Validation](https://user-images.githubusercontent.com/45035308/207873243-544ac9e0-fe27-41dd-bd2f-f92421003afd.png)
+
+
